@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+	<layout title="BBB Iframe Load">
+		<message>Component to load the BBB Meeting in an Iframe</message>
+	</layout>
+</metadata>

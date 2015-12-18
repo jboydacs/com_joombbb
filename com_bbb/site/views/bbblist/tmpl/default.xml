@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+	<layout title="BBB List">
+		<message>Component to load the list of bbb meeting</message>
+	</layout>
+</metadata>

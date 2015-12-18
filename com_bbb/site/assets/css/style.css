@@ -1,0 +1,277 @@
+.events_category{
+	margin: 0;min-width: 165px;margin-bottom: 10px;
+}
+.bbb-container{
+	text-align: center;
+	display: inline-block;
+}
+.bbb-container h2 {
+	border: none;
+	margin: 20px 0;
+}
+.cat_sidebar_title{ 
+	background:#A0C843;color:#fff;padding: 8px 0;
+}
+.cat_sidebar_innercont{
+	background:#fff;color:#505050;border-left:1px solid #adadad;border-right:1px solid #adadad;border-bottom:1px solid #adadad;
+}
+.cat_sidebar_linkcont{
+	background:#fff;color:#505050;border-bottom:1px solid #adadad;
+}
+.cat_sidebar_linkcont > a{
+	background: #fff; padding: 13px 0;
+	display: block;
+	width: 100%;display: block;width: 100%;
+}
+.bbbevent-inner-cont{
+	display: inline-block;
+	width: 100%;  
+	margin: 12px 0;
+}
+.monthday-cont{
+	height: 115px;
+	width: 110px;
+	box-shadow: 0 1px 5px 1px #C2C2C2;
+	background: #fff;
+	text-align: center;
+	vertical-align: top;
+	display: inline-block;
+}
+.month_cont{
+	background: #A0C843;
+	color: #fff;
+	font-size: 20px;
+	line-height: 100%;
+	padding: 3px 0;
+}
+.day_cont{
+	height: auto;
+	font-size: 55px;
+	display: inline-block;
+	line-height: 100%;
+	padding: 10px 0 0;
+	color: #505050;
+}
+.eventdetails-cont{
+	display: inline-block;
+	vertical-align: top;
+	margin: 0 2%;
+	width: 60%;
+	text-align: left;
+}
+.eventtime-cont{
+	display: inline-block;
+	vertical-align: top;
+	font-size: 24px;
+	color: #505050;
+}  
+h2.meeting_title{
+	color: #FF6634;
+	margin: 0;
+	padding: 0;
+	font-size: 18px;
+}
+.meeting_description{
+	font-size: 14px;
+}
+.hour_cont,
+.min_cont{
+	display: inline-block;
+}
+
+.events_category a {
+  color: #505050;
+}
+
+.events_category a:hover {
+  color: #a0c843;
+}
+
+body #rt-mainbody-surround > .rt-container {
+	margin-top: 30px;
+}
+
+@media (min-width: 1200px){
+	.rt-grid-8 {
+	  width: 915px;
+	}
+	.rt-grid-4 {
+	  width: 285px;
+	}
+	.bbb-container{
+		width: 80%;
+	}
+}
+.today-container{
+	text-align: center;
+	display: inline-block;
+	width: 100%;
+}
+
+.today-container img{
+	width: 60px;
+}
+
+@media (min-width: 1025px){
+	.today-container{
+		text-align: center;
+		margin-left: 16%;
+		display: inline-block;
+		width: 100%;
+	}
+	
+	body.live-lessons-list #bbb-calendar{
+		margin-top: 88px;
+	}
+		
+	.events_category {
+	  margin-top: 0;margin-right: 10px;
+	}
+}
+@media (min-width: 1025px) and (max-width: 1199px){
+	.rt-grid-8 {
+	  width: 730px;
+	}
+	.rt-grid-4 {
+	  width: 230px;
+	}
+	.bbb-container{
+		width: 73%;
+	}
+}
+
+@media (max-width: 1024px){
+	.rt-grid-8 {
+	  width: 100%;
+	}
+	.bbb-container{
+		width: 96%;
+	}
+}
+
+@media (max-width: 767px){
+	.rt-container {
+	  width: 95%;
+	}
+	.rt-grid-8 {
+		width: 100%;
+		text-align: center;
+	}
+	.bbb-container{
+		width: 100%;
+	}
+}
+
+.rt-block {
+  padding: 3px;
+  margin: 3px;
+  position: relative;
+}
+
+.date_links{
+	margin: 0 6px;
+}
+
+#clock {
+	position: relative;
+	width: 180px;
+	height: 180px;
+	margin: 0 auto 0 auto;
+	background: url(../images/clockface.jpg);background-repeat: no-repeat;
+	list-style: none;
+	}
+
+#sec, #min, #hour {
+	position: absolute;
+	width: 15px;
+	height: 180px;
+	top: 0px;
+	left: 85.5px;
+	}
+
+#sec {
+	background: url(../images/sechand.png);background-repeat: no-repeat;
+	z-index: 3;
+	}
+   
+#min {
+	background: url(../images/minhand.png);background-repeat: no-repeat;
+	z-index: 2;left: 90px !important;width: 3px;
+}
+   
+#hour {
+	background: url(../images/hourhand.png);background-repeat: no-repeat;
+	z-index: 1;left: 89px !important;width: 4px;
+}
+.time-popup-cont > div{
+	margin: 0;
+}
+.time-popup-cont{
+  text-align: center;
+	width: 625px;
+	height: 410px;
+}
+body #cboxLoadedContent{
+	padding: 0;margin-top: 0;
+}
+body #cboxTitle{
+	display: none !important;
+}
+.countdown-cont span{
+	font-size: 20px;
+}
+.countdown-cont div{
+	font-size: 22px;font-weight: bold;
+}
+.countdown-cont span, .countdown-cont div{
+	display: inline-block;color: #fff;vertical-align: middle;
+}
+.countdown-cont{
+	background: #A0C843;
+	color: #fff;
+	padding: 8px 0;
+}
+.eventtitle{
+	color: #FF6634;font-size: 20px;padding: 12px 4px;
+}
+
+.titledesc-cont{
+	width: 54%;
+	vertical-align: top;
+	display: inline-block;
+	padding: 0 2%;text-align: left;margin-top: 10px;
+}
+.timeclock-cont{
+	width: 39%;vertical-align: top;display: inline-block;padding: 0 1%;  margin-top: 10px;
+}
+.countdown-tolessonstarts-cont{
+  font-size: 22px;
+  font-weight: bold;
+  vertical-align: middle;
+}
+.eventdesc{
+	border: 1px solid #adadad;padding: 8px;
+	overflow: auto;
+	height: 215px;
+}
+.dttext{
+  width: 80%;
+  margin: 0 auto;
+}
+#lesson-starts-cont{
+
+}
+.meeting_link{
+	cursor: pointer;
+}
+#date-today{
+	border-bottom: 2px solid #adadad;
+	padding-bottom: 5px; width: 80%;  margin: 0 auto;
+}
+.lesson-startstxt{
+	padding-top: 8px;  display: inline-block;
+}
+
+@media (max-width: 1024px){
+	.events_category{display: none !important;}
+}
