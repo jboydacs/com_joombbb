@@ -331,9 +331,9 @@ if($tmpl == 'component'){
 		var tsDiff = (startTs - now.getTime())/1000;
 		if(tsDiff < 0){
 			if(isInIFrame == true){
-				window.top.location.href = '<?php echo 'live-event?tmpl=component&meetingID=' ?>'+sl6fI7Cn1S;
+				window.top.location.href = '<?php echo 'index.php?option=com_bbb&view=bbb&tmpl=component&meetingID=' ?>'+sl6fI7Cn1S;
 			}else{
-				window.location.href = '<?php echo 'live-event?tmpl=component&meetingID=' ?>'+sl6fI7Cn1S;
+				window.location.href = '<?php echo 'index.php?option=com_bbb&view=bbb&tmpl=component&meetingID=' ?>'+sl6fI7Cn1S;
 			}
 			return false;
 		}
@@ -359,9 +359,9 @@ if($tmpl == 'component'){
 			
 			jQuery('#enternowbutton').click(function(){
 				if(isInIFrame == true){
-						window.top.location.href = '<?php echo 'live-event?tmpl=component&meetingID=' ?>'+sl6fI7Cn1S;
+						window.top.location.href = '<?php echo 'index.php?option=com_bbb&view=bbb&tmpl=component&meetingID=' ?>'+sl6fI7Cn1S;
 				}else{
-						window.location.href = '<?php echo 'live-event?tmpl=component&meetingID=' ?>'+sl6fI7Cn1S; 
+						window.location.href = '<?php echo 'index.php?option=com_bbb&view=bbb&tmpl=component&meetingID=' ?>'+sl6fI7Cn1S; 
 				}
 			});
 			
@@ -383,9 +383,9 @@ if($tmpl == 'component'){
 					jQuery('#countdown-tolessonstarts-cont').css('display', 'none');
 				
 					if(isInIFrame == true){
-						/* window.top.location.href = '<?php echo 'live-event?tmpl=component&meetingID=' ?>'+sl6fI7Cn1S; */
+						/* window.top.location.href = '<?php echo 'index.php?option=com_bbb&view=bbb&tmpl=component&meetingID=' ?>'+sl6fI7Cn1S; */
 					}else{
-						/* window.location.href = '<?php echo 'live-event?tmpl=component&meetingID=' ?>'+sl6fI7Cn1S; */
+						/* window.location.href = '<?php echo 'index.php?option=com_bbb&view=bbb&tmpl=component&meetingID=' ?>'+sl6fI7Cn1S; */
 					}
 				}
 			}, 1000); 
@@ -486,7 +486,7 @@ if($tmpl == 'component'){
 			$displayTime = $event->display_time;
 			$displayTimeSecs = $event->display_time/1000;			
 			$isStarted = ( time() > $displayTimeSecs || !($this->user->id) ) ? 1: 0;
-			$meetingLink = ($user->id) ? '' : 'href="live-event?tmpl=component&meetingID='.$event->id.'"';
+			$meetingLink = ($user->id) ? '' : 'href="index.php?option=com_bbb&view=bbb&tmpl=component&meetingID='.$event->id.'"';
 			$meetingName = $event->meetingName;
 			$meetingDesc = $event->meeting_description;
 			
